@@ -6,6 +6,24 @@
 
 ---
 
+## Thông tin học viên
+
+- Họ và tên: Bùi Thị Ngọc Trân
+- MSSV: 2A202602529
+
+## Chạy bài
+
+Chạy các lệnh sau từ thư mục gốc repo. Cấu hình API keys trong `.env` local trước khi chạy; không đưa key vào README.
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+python src/main.py --part 2
+python src/main.py --part 3
+python src/main.py --part 4
+pytest tests/smoke -q
+pytest tests/public -q
+```
+
 ## Thời lượng
 
 | Phần | Thời gian |
